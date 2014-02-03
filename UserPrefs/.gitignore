@@ -1,0 +1,11 @@
+# Only whitelist preference files
+*
+
+# This .gitignore file
+!.gitignore
+
+# User Keymaps
+!*.sublime-keymap
+
+# Setting Files
+!*.sublime-settings

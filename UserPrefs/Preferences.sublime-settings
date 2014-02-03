@@ -1,0 +1,33 @@
+{
+    "ignored_packages":
+    [
+       "Vintage"
+    ],
+
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+
+    // Set to "none" to turn off drawing white space, "selection" to draw only the
+    // white space within the selection, and "all" to draw all white space
+    "draw_white_space": "all",
+
+    // Determines what character(s) are used to terminate each line in new files.
+    // Valid values are 'system' (whatever the OS uses), 'windows' (CRLF) and
+    // 'unix' (LF only).
+    "default_line_ending": "unix",
+
+    // If true, the selected text will be copied into the find panel when it's
+    // shown.
+    // On OS X, this value is overridden in the platform specific settings, so
+    // you'll need to place this line in your user settings to override it.
+    "find_selected_text": true,
+
+    // Makes tabs with modified files more visible
+    "highlight_modified_tabs": true,
+
+    // Controls auto pairing of quotes, brackets etc
+    "auto_match_enabled": false,
+
+    // If enabled, will highlight any line with a caret
+    "highlight_line": true
+}
