@@ -1,0 +1,17 @@
+[
+  { "keys": ["super+d"], "command": "expand_selection", "args": {"to": "word"} },
+
+  // Search and Replace
+  { "keys": ["ctrl+s"], "command": "show_panel", "args": {"panel": "find"} },
+  { "keys": ["ctrl+s"], "command": "find_next",  "context": [
+    { "key": "panel_visible", "operator": "equal", "operand": true }
+  ]},
+
+  { "keys": ["ctrl+r"], "command": "show_panel", "args": {"panel": "find"} },
+  { "keys": ["ctrl+r"], "command": "find_prev",  "context": [
+    { "key": "panel_visible", "operator": "equal", "operand": true }
+  ]},
+
+  // Beginning of Line
+  { "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "bol", "extend": false} }
+]

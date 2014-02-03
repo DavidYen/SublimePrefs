@@ -1,2 +1,4 @@
 [
+  // Goto Line (alt+g, alt+g does not work on linux for some reason, use single alt+g for now)
+  { "keys": ["alt+g"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true, "text" : ":"}}
 ]
