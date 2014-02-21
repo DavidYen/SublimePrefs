@@ -12,6 +12,8 @@
     { "key": "panel_visible", "operator": "equal", "operand": true }
   ]},
 
+  { "keys": ["ctrl+shift+r"], "command": "show_panel", "args": {"panel": "replace"} },
+
   // Beginning of Line
   { "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "bol", "extend": false} }
 ]
