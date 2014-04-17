@@ -1,5 +1,5 @@
 [
-  { "keys": ["super+d"], "command": "expand_selection", "args": {"to": "word"} },
+  { "keys": ["alt+8"], "command": "expand_selection", "args": {"to": "word"} },
 
   // Search and Replace
   { "keys": ["ctrl+s"], "command": "show_panel", "args": {"panel": "find"} },
