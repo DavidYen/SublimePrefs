@@ -3,6 +3,7 @@
 	[
 		"scons",
 		"gyp",
-		"gypi"
+		"gypi",
+		"json"
 	]
 }
