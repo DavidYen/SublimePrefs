@@ -1,8 +1,43 @@
 {
 	"auto_match_enabled": false,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar"
+	],
 	"default_line_ending": "unix",
 	"draw_white_space": "all",
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.psd",
+		"*.db"
+	],
 	"find_selected_text": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
 	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -10,7 +45,10 @@
 	[
 		"Vintage"
 	],
-	"rulers": [80],
+	"rulers":
+	[
+		80
+	],
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true
 }
