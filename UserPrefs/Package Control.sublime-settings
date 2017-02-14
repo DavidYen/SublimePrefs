@@ -1,9 +1,8 @@
 {
-	"installed_dependencies":
+	"bootstrapped": true,
+	"in_process_packages":
 	[
-		"0_package_control_loader",
-		"bz2",
-		"ssl-linux"
+		"Package Control"
 	],
 	"installed_packages":
 	[
