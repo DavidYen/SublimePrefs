@@ -1,4 +1,10 @@
 {
+	"added_words":
+	[
+		"immersive",
+		"allocator",
+		"destructor",
+	],
 	"auto_match_enabled": false,
 	"binary_file_patterns":
 	[
@@ -38,7 +44,7 @@
 		".hg",
 		"CVS"
 	],
-	"font_size": 10,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -46,11 +52,13 @@
 		"Package Control",
 		"Vintage"
 	],
+	"index_exclude_gitignore": false,
 	"indent_to_bracket": true,
 	"rulers":
 	[
 		80
 	],
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true
+	"show_full_path": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
 }

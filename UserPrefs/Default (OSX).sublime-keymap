@@ -1,2 +1,4 @@
 [
+  {"keys": ["ctrl+/"], "command": "undo"},
+  { "keys": ["alt+o"], "command": "switch_file", "args": {"extensions": ["cpp", "cxx", "cc", "c", "hpp", "hxx", "hh", "h", "ipp", "inl", "m", "mm"]} },
 ]
