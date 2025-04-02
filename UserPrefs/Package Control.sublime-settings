@@ -2,12 +2,10 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Package Control"
 	],
 	"installed_packages":
 	[
+		"Emacs Pro Essentials",
 		"HexViewer",
-		"Package Control",
-		"sublemacspro"
-	]
+	],
 }
